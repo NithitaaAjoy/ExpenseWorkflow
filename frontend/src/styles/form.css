@@ -1,0 +1,102 @@
+/* EXPENSE CARD */
+
+.expense-card{
+  background:#0b0b0b;
+  border-radius:14px;
+  padding:30px;
+  display:flex;
+  gap:40px;
+}
+
+/* FORM SECTION */
+
+.form-section{
+  flex:1;
+}
+
+.title{
+  color:white;
+  font-size:22px;
+  margin-bottom:25px;
+}
+
+/* LABEL */
+
+label{
+  font-size:12px;
+  color:#888;
+  display:block;
+  margin-bottom:5px;
+}
+
+/* INPUTS */
+
+input,
+select,
+textarea{
+  width:100%;
+  background:#2b2b2b;
+  border:none;
+  padding:10px;
+  border-radius:6px;
+  color:white;
+  margin-bottom:15px;
+}
+
+textarea{
+  height:70px;
+}
+
+/* CHECKBOX */
+
+.checkbox{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:15px;
+}
+
+/* UPLOAD BOX */
+
+.upload-box{
+  width:260px;
+  height:300px;
+  border:2px dashed #2d2d2d;
+  border-radius:12px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  color:#666;
+}
+
+.upload-box span{
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+/* BUTTONS */
+
+.button-area{
+  display:flex;
+  gap:15px;
+  margin-top:20px;
+}
+
+.btn-save{
+  background:#00d4b8;
+  border:none;
+  padding:10px 22px;
+  border-radius:6px;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.btn-draft{
+  background:#2b2b2b;
+  border:none;
+  padding:10px 22px;
+  border-radius:6px;
+  color:white;
+  cursor:pointer;
+}

@@ -1,0 +1,86 @@
+/* PAGE BACKGROUND */
+
+body{
+  margin:0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg,#cbb4ff,#8e7bff);
+}
+
+/* MAIN CARD */
+
+.app-container{
+  width:1200px;
+  height:720px;
+  margin:40px auto;
+  background:#111;
+  border-radius:22px;
+  display:flex;
+  box-shadow:0 30px 60px rgba(0,0,0,0.5);
+  overflow:hidden;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+  width:220px;
+  background:#151515;
+  padding:30px 20px;
+  display:flex;
+  flex-direction:column;
+  color:#aaa;
+}
+
+/* PROFILE */
+
+.profile{
+  display:flex;
+  align-items:center;
+  margin-bottom:40px;
+}
+
+.profile img{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  margin-right:10px;
+}
+
+.profile span{
+  color:white;
+  font-size:14px;
+}
+
+/* NAVIGATION */
+
+.nav-item{
+  padding:12px 14px;
+  border-radius:8px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
+
+.nav-item:hover{
+  background:#1f1f1f;
+}
+
+.nav-item.active{
+  background:#1f1f1f;
+  color:#00d4b8;
+}
+
+/* LOGO */
+
+.logo{
+  margin-top:auto;
+  color:#00d4b8;
+  font-weight:600;
+  letter-spacing:2px;
+}
+
+/* MAIN CONTENT */
+
+.main-content{
+  flex:1;
+  padding:35px;
+  background:#0d0d0d;
+}
