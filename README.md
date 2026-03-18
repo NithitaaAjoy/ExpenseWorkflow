@@ -1,6 +1,34 @@
-# Expense Workflow Application
+Expense Workflow Management System
 
-A full-stack expense management application with workflow capabilities.
+This project is a web-based Expense Workflow Management System designed to simplify and automate the process of submitting, reviewing, and approving employee expenses within an organization.
+
+The system supports multiple roles such as Employee and Manager, where:
+
+Employees can submit expense requests
+
+Managers can view, approve, or reject submitted expenses
+
+It ensures a structured workflow, reduces manual errors, and improves transparency in expense handling.
+
+🚀 Key Features
+
+🧾 Employee expense submission
+
+📊 Manager dashboard to review expenses
+
+✅ Approve / ❌ Reject functionality
+
+🔐 Role-based access (Employee & Manager)
+
+📂 Organized expense tracking system
+
+🛠️ Tech Stack
+
+Frontend: React.js, CSS
+
+Backend: Node.js
+
+Database: (MongoDB)
 
 ## Project Structure
 
@@ -11,7 +39,7 @@ A full-stack expense management application with workflow capabilities.
 
 ### Prerequisites
 - Node.js
-- npm or yarn
+- npm 
 
 ### Installation
 
@@ -32,7 +60,7 @@ A full-stack expense management application with workflow capabilities.
 1. Start the backend server:
    ```bash
    cd backend
-   npm start
+   node server.js
    ```
 
 2. Start the frontend development server:
@@ -40,26 +68,6 @@ A full-stack expense management application with workflow capabilities.
    cd frontend
    npm start
    ```
-
-## Features
-
-- Expense tracking and management
-- Workflow approval system
-- User authentication
-- Dashboard and reporting
-
-## Technology Stack
-
-### Backend
-- Node.js
-- Express.js
-- Database (check backend/package.json for details)
-
-### Frontend
-- React
-- Modern UI components
-- State management
-
 ## Contributing
 
 1. Fork the repository
@@ -67,6 +75,3 @@ A full-stack expense management application with workflow capabilities.
 3. Make your changes
 4. Submit a pull request
 
-## License
-
-ISC
